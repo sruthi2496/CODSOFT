@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6fb;
+}
+
+/* Container */
+.container {
+    width: 85%;
+    margin: 50px auto;
+    background: white;
+    padding: 40px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.main-title {
+    color: #2d4ea2;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    color: #777;
+    margin-bottom: 30px;
+}
+
+/* Columns */
+.columns {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.col {
+    flex: 1;
+    background: #f7f9ff;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.col:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.col h3 {
+    color: #2d4ea2;
+    margin-bottom: 10px;
+}
+
+.col p {
+    padding: 0 10px;
+    text-align: center;
+}
+
+/* Content */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.7;
+    color: #444;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 12px 25px;
+    background: #2d4ea2;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.btn:hover {
+    background: #1f3a7a;
+    transform: scale(1.05);
+}
+.main-title {
+    color: #2d4ea2;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.col {
+    flex: 1;
+    background: #f7f9ff;
+    padding: 25px;
+    border-radius: 12px; /* increase */
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #eef2ff, #f4f6fb);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .columns {
+        flex-direction: column;
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1 class="main-title">Modern Landing Page</h1>
+    <p class="subtitle">Learn • Design • Create</p>
+
+    <div class="columns">
+        <div class="col">
+            <h3>Basics</h3>
+            <p>Learn HTML & CSS fundamentals. Understand structure, tags, and styling.</p>
+        </div>
+
+        <div class="col">
+            <h3>Design</h3>
+            <p>Focus on alignment, spacing, colors, and layout for better UI.</p>
+        </div>
+
+        <div class="col">
+            <h3>Creativity</h3>
+            <p>Build visually appealing pages using your own ideas and design skills.</p>
+        </div>
+    </div>
+
+    <p class="content">
+        A landing page is an ideal project for beginners. It helps you practice layout design,
+        section division, and styling using HTML and CSS. This improves your frontend skills
+        and creativity while building user-friendly web pages.
+    </p>
+
+    <a href="#" class="btn">View Demo</a>
+
+</div>
+
+</body>
+</html>
